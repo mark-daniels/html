@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment II: Fake Blog</title>
+	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h1>Which language do you enjoy the most?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt, est in rutrum accumsan, sapien eros eleifend arcu, at porttitor elit felis nec velit. Integer efficitur iaculis ex, id facilisis purus eleifend sed.</p>
+		</div>
+		<div id="main-content">
+			<table>
+				<thead>
+					<tr>
+						<td>#</td>
+						<td>Language</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>PHP</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>JavaScript</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Ruby on Rails</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Post Comments</h2>
+			<form>
+				<label>Name:</label>
+				<input type="text" id="name" name="name">
+				<label>Topic:</label>
+				<select id="job_title" name="title" >
+					<option value="default">select job title</option>
+					<option value="student">student</option>
+					<option value="web developer">web developer</option>
+					<option value="front-end developer">front-end developer</option>
+					<option value="back-end developer">back-end developer</option>
+					<option value="other">other</option>
+				</select>
+				<p>Your coding level and language:</p>
+				<label>Beginner</label>
+				<input type="radio" id="beginner_coder" name="coder" value="beginner">
+				<label>Intermediate</label>
+				<input type="radio" id="intermediate_coder" name="coder" value="intermediate">
+				<label>Expert</label>
+				<input type="radio" id="expert_coder" name="coder" value="expert">
+				<label for="php_language">PHP</label>
+				<input type="checkbox" id="php_language" name="language" value="php">
+				<label for="js_language">JavaScript</label>
+				<input type="checkbox" id="js_language" name="language" value="javascript">
+				<label for="ror_language">Ruby on Rails</label>
+				<input type="checkbox" id="ror_language" name="language" value="ruby on rails">
+				<label for="comments">Add your comments here:</label>
+				<textarea id=comments name="comments" cols="30" rows="5"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div id="side-menu">
+			<h3>Previous posts</h3>
+			<ul>
+				<li><a href="#">September 2015</a></li>
+				<li><a href="#">August 2015</a></li>
+				<li><a href="#">July 2015</a></li>
+				<li><a href="#">June 2015</a></li>
+				<li><a href="#">May 2015</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
